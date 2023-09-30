@@ -1,17 +1,41 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { LoginLayout } from './layouts/LoginLayout';
+import { IndexLayout } from './layouts/IndexLayout';
+import { SignupLayout } from './layouts/SignupLayout';
+import { MatchesLayout } from './layouts/MatchesLayout';
+import { HeroesLayout } from './layouts/HeroesLayout';
 
 const router = createBrowserRouter([{
     path: '/',
-    element: <div><p>Home</p></div>,
+    element: <IndexLayout/>,
   },
   {
     path: '/login',
-    element: <div><p>login</p></div>,
+    element: <LoginLayout/>
+  },
+  {
+    path: '/signup',
+    element: <SignupLayout/>,
+  }, 
+  {
+    path: '/matches',
+    element: <MatchesLayout/>,
+  }, 
+  {
+    path: '/matches/:id',
+    element: <div><p>Particular match</p></div>,
+  }, 
+  {
+    path: '/heroes',
+    element: <HeroesLayout/>,
+  }, 
+  {
+    path: '/heroes/:id',
+    element: <div><p>Particular hero</p></div>,
   }
 ])
 
