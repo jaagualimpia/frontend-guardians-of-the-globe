@@ -1,10 +1,19 @@
+import { Col, Container, Row } from "react-bootstrap"
+import PersonCardComponent from "../components/PersonCardComponent/PersonCardComponent"
 import NavBar from "../components/navBarComponent/navBar"
 
 export const HeroesLayout = () => {
     return (
-        <div>
-            <NavBar/>
+        <>
+            <NavBar />
             <h3>Heroes Layout</h3>
-        </div>
+            <Container>
+                <Row>
+                    <Col>
+                        <PersonCardComponent />
+                    </Col>
+                </Row>
+            </Container>
+        </>
     )
 }
