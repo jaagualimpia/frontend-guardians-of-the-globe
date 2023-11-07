@@ -3,7 +3,7 @@ import PersonCardComponent from "../components/PersonCardComponent/PersonCardCom
 import NavBar from "../components/navBarComponent/navBar"
 import { SearchBarComponent } from "../components/searchBarComponent/searchBar"
 
-export const HeroesLayout = () => {
+export const VillainsLayout = () => {
     return (
         <>
             <NavBar />
@@ -15,7 +15,7 @@ export const HeroesLayout = () => {
                 </Row>
                 <Row className="mx-4">
                     <Col>
-                        <PersonCardComponent isVillain={false}/>
+                        <PersonCardComponent isVillain={true}/>
                     </Col>
                 </Row>
             </Container>

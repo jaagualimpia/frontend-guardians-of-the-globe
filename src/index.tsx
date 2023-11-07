@@ -8,6 +8,7 @@ import { IndexLayout } from './layouts/IndexLayout';
 import { SignupLayout } from './layouts/SignupLayout';
 import { MatchesLayout } from './layouts/MatchesLayout';
 import { HeroesLayout } from './layouts/HeroesLayout';
+import { VillainsLayout } from './layouts/VillainsLayout';
 
 const router = createBrowserRouter([{
     path: '/',
@@ -36,6 +37,10 @@ const router = createBrowserRouter([{
   {
     path: '/heroes/:id',
     element: <div><p>Particular hero</p></div>,
+  }, 
+  {
+    path: '/villains',
+    element: <VillainsLayout/>,
   }
 ])
 
