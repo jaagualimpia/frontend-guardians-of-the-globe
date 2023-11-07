@@ -16,7 +16,7 @@ const PersonCardComponent = ({ name, image, description, isVillain }: PersonCard
     let nameColor = (isVillain)? '#980000' : '#FFFFFF';
 
     return (
-        <Card style={{ width: '15rem', backgroundColor: '#1A1A1C'}}>
+        <Card style={{ width: '15rem', backgroundColor: '#1A1A1C', cursor:"pointer"}}>
             <Card.Body>
                 <Container fluid>
                     <Row>
