@@ -1,26 +1,21 @@
 import { Card, Col, Container, Row } from 'react-bootstrap';
+import { Person } from '../../models/Person';
 
 interface PersonCardProps {
-    name?: string;
-    image?: string;
-    description?: string;
+    person: Person
     isVillain?: boolean;
 }
 
-const PersonCardComponent = ({ name, image, description, isVillain }: PersonCardProps) => {
-    name = "ejemplo"
-    image = "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/08/03/16595421832009.jpg"
-    description = "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos."
-
+const PersonCardComponent = ({isVillain, person }: PersonCardProps) => {
     let nameColor = (isVillain)? '#980000' : '#FFFFFF';
 
     return (
-        <Card style={{ width: '15rem', backgroundColor: '#1A1A1C', cursor:"pointer"}}>
+        <Card style={{ backgroundColor: '#1A1A1C', cursor:"pointer"}}>
             <Card.Body>
                 <Container fluid>
                     <Row>
                         <Col>
-                            <Card.Title className='text-center fw-bold' style={{color: nameColor}}>Nombre</Card.Title>
+                            <Card.Title className='text-center fw-bold' style={{color: nameColor}}>{person.name}</Card.Title>
                         </Col>
                     </Row>
                     <Row>
@@ -30,7 +25,7 @@ const PersonCardComponent = ({ name, image, description, isVillain }: PersonCard
                     </Row>
                     <Row>
                         <Col>
-                            <Card.Text className='text-center text-white'>Poder</Card.Text>
+                            <Card.Text className='text-center text-white'><b>Poder</b></Card.Text>
                         </Col>
                     </Row>
                 </Container>

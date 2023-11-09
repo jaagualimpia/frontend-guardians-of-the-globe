@@ -1,6 +1,11 @@
 import { Form, InputGroup } from "react-bootstrap"
 
-export const SearchBarComponent = () => {
+interface SearchBarProps {
+    setSearchValue: (value: string) => void
+    setSearchCriteria: (value: string) => void
+}
+
+export const SearchBarComponent = ({setSearchValue, setSearchCriteria}: SearchBarProps) => {
     return (
         <>
             <InputGroup className="mb-3" size="lg">
@@ -12,7 +17,13 @@ export const SearchBarComponent = () => {
                 <Form.Control
                     placeholder="Search"
                     aria-label="search"
+                    onChange={(e) => setSearchValue(e.target.value)}
                 />
+                <Form.Select aria-label="Default select example" onChange={(e) => setSearchCriteria(e.target.value)}>
+                    <option value="name">Search by name</option>
+                    <option value="abilities">Search by abilities</option>
+                    <option value="relationships">Search by relationships</option>
+                </Form.Select>
             </InputGroup>
         </>
     )

@@ -1,0 +1,216 @@
+{
+    "heroe": [
+        {
+            "id": 1,
+            "name": "Magdalen",
+            "dateOfBirth": "12/6/2022",
+            "gender": "Female",
+            "description": "Kazan State Finance and Economics Institute "
+        },
+        {
+            "id": 2,
+            "name": "Rebeka",
+            "dateOfBirth": "5/23/2023",
+            "gender": "Female",
+            "description": "Meru University of Science and Technology"
+        },
+        {
+            "id": 3,
+            "name": "Carey",
+            "dateOfBirth": "10/31/2023",
+            "gender": "Male",
+            "description": "Payame Noor University"
+        },
+        {
+            "id": 4,
+            "name": "Hank",
+            "dateOfBirth": "3/1/2023",
+            "gender": "Male",
+            "description": "Helsinki School of Economics and Business Administration"
+        },
+        {
+            "id": 5,
+            "name": "Willdon",
+            "dateOfBirth": "12/7/2022",
+            "gender": "Male",
+            "description": "Fitchburg State College"
+        },
+        {
+            "id": 6,
+            "name": "Cheston",
+            "dateOfBirth": "4/3/2023",
+            "gender": "Male",
+            "description": "Institute of Clinical Social Work"
+        },
+        {
+            "id": 7,
+            "name": "Hazel",
+            "dateOfBirth": "5/26/2023",
+            "gender": "Female",
+            "description": "Cairo University"
+        },
+        {
+            "id": 8,
+            "name": "Alessandra",
+            "dateOfBirth": "11/17/2022",
+            "gender": "Female",
+            "description": "Chung-Ang University"
+        },
+        {
+            "id": 9,
+            "name": "Roch",
+            "dateOfBirth": "11/25/2022",
+            "gender": "Female",
+            "description": "Gwangju Catholic College"
+        },
+        {
+            "id": 10,
+            "name": "Sheridan",
+            "dateOfBirth": "10/1/2023",
+            "gender": "Male",
+            "description": "San Jose Christian College"
+        },
+        {
+            "id": 11,
+            "name": "Leese",
+            "dateOfBirth": "5/25/2023",
+            "gender": "Female",
+            "description": "Universidad Autónoma Metropolitana - Iztapalapa"
+        },
+        {
+            "id": 12,
+            "name": "Dido",
+            "dateOfBirth": "8/6/2023",
+            "gender": "Female",
+            "description": "Pacific Graduate School of Psychology"
+        },
+        {
+            "id": 13,
+            "name": "Valle",
+            "dateOfBirth": "1/11/2023",
+            "gender": "Male",
+            "description": "Universidad Miguel Hernández de Elche"
+        },
+        {
+            "id": 14,
+            "name": "Alden",
+            "dateOfBirth": "4/12/2023",
+            "gender": "Male",
+            "description": "Royal lnstitute of Technology"
+        },
+        {
+            "id": 15,
+            "name": "Fanchette",
+            "dateOfBirth": "8/10/2023",
+            "gender": "Female",
+            "description": "Elmira College"
+        }
+    ],
+    "villain": [
+        {
+            "id": 1,
+            "name": "Magdalen",
+            "dateOfBirth": "12/6/2022",
+            "gender": "Female",
+            "origin": "Kazan State Finance and Economics Institute "
+        },
+        {
+            "id": 2,
+            "name": "Rebeka",
+            "dateOfBirth": "5/23/2023",
+            "gender": "Female",
+            "origin": "Meru University of Science and Technology"
+        },
+        {
+            "id": 3,
+            "name": "Carey",
+            "dateOfBirth": "10/31/2023",
+            "gender": "Male",
+            "origin": "Payame Noor University"
+        },
+        {
+            "id": 4,
+            "name": "Hank",
+            "dateOfBirth": "3/1/2023",
+            "gender": "Male",
+            "origin": "Helsinki School of Economics and Business Administration"
+        },
+        {
+            "id": 5,
+            "name": "Willdon",
+            "dateOfBirth": "12/7/2022",
+            "gender": "Male",
+            "origin": "Fitchburg State College"
+        },
+        {
+            "id": 6,
+            "name": "Cheston",
+            "dateOfBirth": "4/3/2023",
+            "gender": "Male",
+            "origin": "Institute of Clinical Social Work"
+        },
+        {
+            "id": 7,
+            "name": "Hazel",
+            "dateOfBirth": "5/26/2023",
+            "gender": "Female",
+            "origin": "Cairo University"
+        },
+        {
+            "id": 8,
+            "name": "Alessandra",
+            "dateOfBirth": "11/17/2022",
+            "gender": "Female",
+            "origin": "Chung-Ang University"
+        },
+        {
+            "id": 9,
+            "name": "Roch",
+            "dateOfBirth": "11/25/2022",
+            "gender": "Female",
+            "origin": "Gwangju Catholic College"
+        },
+        {
+            "id": 10,
+            "name": "Sheridan",
+            "dateOfBirth": "10/1/2023",
+            "gender": "Male",
+            "origin": "San Jose Christian College"
+        },
+        {
+            "id": 11,
+            "name": "Leese",
+            "dateOfBirth": "5/25/2023",
+            "gender": "Female",
+            "origin": "Universidad Autónoma Metropolitana - Iztapalapa"
+        },
+        {
+            "id": 12,
+            "name": "Dido",
+            "dateOfBirth": "8/6/2023",
+            "gender": "Female",
+            "origin": "Pacific Graduate School of Psychology"
+        },
+        {
+            "id": 13,
+            "name": "Valle",
+            "dateOfBirth": "1/11/2023",
+            "gender": "Male",
+            "origin": "Universidad Miguel Hernández de Elche"
+        },
+        {
+            "id": 14,
+            "name": "Alden",
+            "dateOfBirth": "4/12/2023",
+            "gender": "Male",
+            "origin": "Royal lnstitute of Technology"
+        },
+        {
+            "id": 15,
+            "name": "Fanchette",
+            "dateOfBirth": "8/10/2023",
+            "gender": "Female",
+            "origin": "Elmira College"
+        }
+    ]
+}

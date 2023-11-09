@@ -10,6 +10,8 @@ import { MatchesLayout } from './layouts/MatchesLayout';
 import { HeroesLayout } from './layouts/HeroesLayout';
 import { VillainsLayout } from './layouts/VillainsLayout';
 import { SponsorsLayout } from './layouts/SponsorsLayout';
+import { DetailPersonComponent } from './components/detailComponents/DetailPersonComponent/DetailPersonComponent';
+import { DetailPersonLayout } from './layouts/detailLayouts/DetailPersonLayout';
 
 const router = createBrowserRouter([{
     path: '/',
@@ -37,11 +39,15 @@ const router = createBrowserRouter([{
   }, 
   {
     path: '/heroes/:id',
-    element: <div><p>Particular hero</p></div>,
+    element: <DetailPersonLayout isVillain={false}/>,
   }, 
   {
     path: '/villains',
     element: <VillainsLayout/>,
+  },
+  {
+    path: '/villains/:id',
+    element: <DetailPersonLayout isVillain={true}/>,
   },
   {
     path: '/sponsors',

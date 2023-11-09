@@ -1,1 +1,37 @@
-export const getVillains = async () => {}
+import axios from "axios"
+import { Villain } from "../models/Villain"
+
+export const getAllVillains = async () => {
+    let villain: Villain[] = []
+
+    await axios.get("http://localhost:5050/villain").then((response) => {
+        response.data.forEach((element: Villain) => {
+            villain.push(element)
+        })
+    })
+
+    return villain
+
+}
+
+export const getVillainsById = async (id: number): Promise<Villain> => {
+    let villain: Villain = {
+        id: 0,
+        name: "",
+        origin: "",
+        gender: "",
+        dateOfBirth: ""
+    }
+
+    await axios.get(`http://localhost:5050/villain/${id}`)
+        .then((response) => {
+            console.log(response.data)
+            villain.id = response.data.id
+            villain.name = response.data.name
+            villain.gender = response.data.gender
+            villain.origin = response.data.origin
+            villain.dateOfBirth = response.data.dateOfBirth
+        })
+
+    return villain
+}
