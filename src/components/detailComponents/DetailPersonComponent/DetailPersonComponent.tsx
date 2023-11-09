@@ -1,5 +1,6 @@
 import { Card, Col, Container, Row } from "react-bootstrap"
 import { Person } from "../../../models/Person"
+import { AgeCalculationService } from "../../../services/AgeCalculationService"
 
 interface PersonDetailedInfo {
     person: Person
@@ -17,18 +18,24 @@ export const DetailPersonComponent = ({ isVillain, person }: PersonDetailedInfo)
                     <Container fluid>
                         <Row>
                             <Col>
-                                <Card.Title style={{ color: textColor }} className="fw-bold">Nombre heroe/villano</Card.Title>
+                                <Card.Title style={{ color: textColor }} className="fw-bold">{person.name}</Card.Title>
                             </Col>
                         </Row>
                         <Row>
                             <Col>
-                                <Card.Title className="fw-light">Edad</Card.Title>
+                                <Card.Title className="fw-light">{AgeCalculationService(new Date(person.dateOfBirth))} years</Card.Title>
                             </Col>
                         </Row>
 
                         <Row>
                             <Col>
                                 <Card.Title className="fw-light text-start"><strong><b>Poderes:</b></strong> uno, dos, tres, cuatro</Card.Title>
+                            </Col>
+                        </Row>
+
+                        <Row>
+                            <Col>
+                                <Card.Title className="fw-light text-start"><strong><b>Debilidades:</b></strong> uno, dos, tres, cuatro</Card.Title>
                             </Col>
                         </Row>
 

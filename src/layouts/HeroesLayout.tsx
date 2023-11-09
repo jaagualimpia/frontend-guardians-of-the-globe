@@ -12,10 +12,8 @@ export const HeroesLayout = () => {
     const [searchCriteria, setSearchCriteria] = useState<string>("name")
 
     useEffect(() => {
-        const fetchAll = async () => {
-            setHeroes(await getAllHeroes())
-
-        }
+        const fetchAll = async () => setHeroes(await getAllHeroes())
+        
         fetchAll()
     }, [])
 

@@ -1,0 +1,9 @@
+1. Agregar weaknesses y description a los modelos 
+2. Hacer que los details queden funcionando para heroes y viilanos 
+3. Dejar Sponsor funcional
+4. Permitir hallar Sponsor que más aporta a un heroe 
+5. Permitir conocer los heroes patrocinados por un sponsor (Dentro del detalle del sponsor)
+6. Agregar las relaciones de un heroe
+7. Determinar los villanos contra los que más ha peleado un heroe
+8. Establecer mecanismos mediante los cuales se pueda manejar la agenda de los heroes
+9. Agrupar heroes por edad 

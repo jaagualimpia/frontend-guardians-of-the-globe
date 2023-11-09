@@ -1,5 +1,6 @@
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import { Person } from '../../models/Person';
+import { redirect } from "react-router-dom";
 
 interface PersonCardProps {
     person: Person
@@ -9,8 +10,12 @@ interface PersonCardProps {
 const PersonCardComponent = ({isVillain, person }: PersonCardProps) => {
     let nameColor = (isVillain)? '#980000' : '#FFFFFF';
 
+    const onClickCardComponent = () => {
+        window.location.href = `${window.location.href}/${person.id}`
+    }
+
     return (
-        <Card style={{ backgroundColor: '#1A1A1C', cursor:"pointer"}}>
+        <Card style={{ backgroundColor: '#1A1A1C', cursor:"pointer"}} onClick={onClickCardComponent}>
             <Card.Body>
                 <Container fluid>
                     <Row>
