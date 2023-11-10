@@ -19,7 +19,7 @@ export const SearchBarComponent = ({setSearchValue, setSearchCriteria}: SearchBa
                     aria-label="search"
                     onChange={(e) => setSearchValue(e.target.value)}
                 />
-                <Form.Select aria-label="Default select example" onChange={(e) => setSearchCriteria(e.target.value)}>
+                <Form.Select onChange={(e) => setSearchCriteria(e.target.value)}>
                     <option value="name">Search by name</option>
                     <option value="abilities">Search by abilities</option>
                     <option value="relationships">Search by relationships</option>
