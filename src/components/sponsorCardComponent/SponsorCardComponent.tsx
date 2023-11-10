@@ -1,15 +1,12 @@
 import { Card, Col, Container, Row } from 'react-bootstrap';
+import { Sponsor } from '../../models/Sponsor';
+import { AgeCalculationService } from '../../services/AgeCalculationService';
 
-interface PersonCardProps {
-    name?: string;
-    edad?: string;
-    heroes?: boolean;
+interface SponsorCardProps {
+    sponsor: Sponsor
 }
 
-export const SponsorCardComponent = ({name, edad, heroes}: PersonCardProps) => {
-    name = "ejemplo"
-    edad = "https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/08/03/16595421832009.jpg"
-    heroes = true
+export const SponsorCardComponent = ({sponsor}: SponsorCardProps) => {
 
     return (
         <Card style={{ width: '15rem', backgroundColor: '#1A1A1C', cursor: "pointer" }}>
@@ -17,22 +14,22 @@ export const SponsorCardComponent = ({name, edad, heroes}: PersonCardProps) => {
                 <Container fluid>
                     <Row>
                         <Col>
-                            <Card.Title className='text-center fw-bold text-white'>Nombre</Card.Title>
+                            <Card.Title className='text-center fw-bold text-white'>{sponsor.name}</Card.Title>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
-                            <Card.Text className='text-center text-white fw-light'>edad</Card.Text>
+                            <Card.Text className='text-center text-white fw-light'>{AgeCalculationService(new Date(sponsor.dateOfBirth))} years</Card.Text>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
-                            <Card.Text className='text-center text-white'>Net worth</Card.Text>
+                            <Card.Text className='text-center text-white'>{sponsor.netWorth} USD</Card.Text>
                         </Col>
                     </Row>
                     <Row>
                         <Col>
-                            <Card.Text className='text-center text-white'>Sponsored hero</Card.Text>
+                            <Card.Text className='text-center text-white text-truncate'>{sponsor.sponsoredHeroes.join(", ")}</Card.Text>
                         </Col>
                     </Row>
                 </Container>
