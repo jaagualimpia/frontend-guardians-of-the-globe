@@ -5,105 +5,135 @@
             "name": "Magdalen",
             "dateOfBirth": "12/6/2002",
             "gender": "Female",
-            "description": "Kazan State Finance and Economics Institute "
+            "description": "Kazan State Finance and Economics Institute ",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["darkness", "super strength", "x-ray vision"]
         },
         {
             "id": 2,
             "name": "Rebeka",
-            "dateOfBirth": "5/23/2023",
+            "dateOfBirth": "5/23/2015",
             "gender": "Female",
-            "description": "Meru University of Science and Technology"
+            "description": "Meru University of Science and Technology",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 3,
             "name": "Carey",
-            "dateOfBirth": "10/31/2023",
+            "dateOfBirth": "10/31/2003",
             "gender": "Male",
-            "description": "Payame Noor University"
+            "description": "Payame Noor University",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 4,
             "name": "Hank",
-            "dateOfBirth": "3/1/2023",
+            "dateOfBirth": "10/17/2003",
             "gender": "Male",
-            "description": "Helsinki School of Economics and Business Administration"
+            "description": "Helsinki School of Economics and Business Administration",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 5,
             "name": "Willdon",
-            "dateOfBirth": "12/7/2022",
+            "dateOfBirth": "9/25/2002",
             "gender": "Male",
-            "description": "Fitchburg State College"
+            "description": "Fitchburg State College",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 6,
             "name": "Cheston",
             "dateOfBirth": "4/3/2023",
             "gender": "Male",
-            "description": "Institute of Clinical Social Work"
+            "description": "Institute of Clinical Social Work",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 7,
             "name": "Hazel",
-            "dateOfBirth": "5/26/2023",
+            "dateOfBirth": "12/10/2003",
             "gender": "Female",
-            "description": "Cairo University"
+            "description": "Cairo University",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 8,
             "name": "Alessandra",
             "dateOfBirth": "11/17/2022",
             "gender": "Female",
-            "description": "Chung-Ang University"
+            "description": "Chung-Ang University",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 9,
             "name": "Roch",
             "dateOfBirth": "11/25/2022",
             "gender": "Female",
-            "description": "Gwangju Catholic College"
+            "description": "Gwangju Catholic College",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 10,
             "name": "Sheridan",
             "dateOfBirth": "10/1/2023",
             "gender": "Male",
-            "description": "San Jose Christian College"
+            "description": "San Jose Christian College",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 11,
             "name": "Leese",
             "dateOfBirth": "5/25/2023",
             "gender": "Female",
-            "description": "Universidad Autónoma Metropolitana - Iztapalapa"
+            "description": "Universidad Autónoma Metropolitana - Iztapalapa",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 12,
             "name": "Dido",
             "dateOfBirth": "8/6/2023",
             "gender": "Female",
-            "description": "Pacific Graduate School of Psychology"
+            "description": "Pacific Graduate School of Psychology",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 13,
             "name": "Valle",
             "dateOfBirth": "1/11/2023",
             "gender": "Male",
-            "description": "Universidad Miguel Hernández de Elche"
+            "description": "Universidad Miguel Hernández de Elche",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 14,
             "name": "Alden",
             "dateOfBirth": "4/12/2023",
             "gender": "Male",
-            "description": "Royal lnstitute of Technology"
+            "description": "Royal lnstitute of Technology",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 15,
             "name": "Fanchette",
             "dateOfBirth": "8/10/2023",
             "gender": "Female",
-            "description": "Elmira College"
+            "description": "Elmira College",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         }
     ],
     "villain": [
@@ -112,105 +142,164 @@
             "name": "Magdalen",
             "dateOfBirth": "12/6/2022",
             "gender": "Female",
-            "origin": "Kazan State Finance and Economics Institute "
+            "origin": "Kazan State Finance and Economics Institute ",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 2,
             "name": "Rebeka",
             "dateOfBirth": "5/23/2023",
             "gender": "Female",
-            "origin": "Meru University of Science and Technology"
+            "origin": "Meru University of Science and Technology",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 3,
             "name": "Carey",
             "dateOfBirth": "10/31/2023",
             "gender": "Male",
-            "origin": "Payame Noor University"
+            "origin": "Payame Noor University",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 4,
             "name": "Hank",
             "dateOfBirth": "3/1/2023",
             "gender": "Male",
-            "origin": "Helsinki School of Economics and Business Administration"
+            "origin": "Helsinki School of Economics and Business Administration",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 5,
             "name": "Willdon",
             "dateOfBirth": "12/7/2022",
             "gender": "Male",
-            "origin": "Fitchburg State College"
+            "origin": "Fitchburg State College",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 6,
             "name": "Cheston",
             "dateOfBirth": "4/3/2023",
             "gender": "Male",
-            "origin": "Institute of Clinical Social Work"
+            "origin": "Institute of Clinical Social Work",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 7,
             "name": "Hazel",
             "dateOfBirth": "5/26/2023",
             "gender": "Female",
-            "origin": "Cairo University"
+            "origin": "Cairo University",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 8,
             "name": "Alessandra",
             "dateOfBirth": "11/17/2022",
             "gender": "Female",
-            "origin": "Chung-Ang University"
+            "origin": "Chung-Ang University",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 9,
             "name": "Roch",
             "dateOfBirth": "11/25/2022",
             "gender": "Female",
-            "origin": "Gwangju Catholic College"
+            "origin": "Gwangju Catholic College",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 10,
             "name": "Sheridan",
             "dateOfBirth": "10/1/2023",
             "gender": "Male",
-            "origin": "San Jose Christian College"
+            "origin": "San Jose Christian College",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 11,
             "name": "Leese",
             "dateOfBirth": "5/25/2023",
             "gender": "Female",
-            "origin": "Universidad Autónoma Metropolitana - Iztapalapa"
+            "origin": "Universidad Autónoma Metropolitana - Iztapalapa",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 12,
             "name": "Dido",
             "dateOfBirth": "8/6/2023",
             "gender": "Female",
-            "origin": "Pacific Graduate School of Psychology"
+            "origin": "Pacific Graduate School of Psychology",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 13,
             "name": "Valle",
             "dateOfBirth": "1/11/2023",
             "gender": "Male",
-            "origin": "Universidad Miguel Hernández de Elche"
+            "origin": "Universidad Miguel Hernández de Elche",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 14,
             "name": "Alden",
             "dateOfBirth": "4/12/2023",
             "gender": "Male",
-            "origin": "Royal lnstitute of Technology"
+            "origin": "Royal lnstitute of Technology",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         },
         {
             "id": 15,
             "name": "Fanchette",
             "dateOfBirth": "8/10/2023",
             "gender": "Female",
-            "origin": "Elmira College"
+            "origin": "Elmira College",
+            "weaknesses": ["Shortness", "fire", "wind"],
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
+        }
+    ],
+    "sponsor": [
+        {
+            "id": 1,
+            "name": "Jorge",
+            "dateOfBirth": "9/25/2003",
+            "gender": "Male",
+            "netWorth": 17000000,
+            "fortuneOrigin":"Data science",
+            "sponsoredHeroes": ["Magdalen, Fanchette", "Rebeka", "karey", "Dido"]
+        },
+        {
+            "id": 1,
+            "name": "Juliana",
+            "dateOfBirth": "10/17/2003",
+            "gender": "Female",
+            "netWorth": 25000000,
+            "fortuneOrigin":"Agriculture",
+            "sponsoredHeroes": ["Magdalen, Fanchette", "Rebeka", "karey", "Dido"]
+        },
+        {
+            "id": 1,
+            "name": "Andrea",
+            "dateOfBirth": "9/14/1997",
+            "gender": "Female",
+            "netWorth": 22000000,
+            "fortuneOrigin":"Minery",
+            "sponsoredHeroes": ["Magdalen, Fanchette", "Rebeka", "karey", "Dido"]
         }
     ]
 }

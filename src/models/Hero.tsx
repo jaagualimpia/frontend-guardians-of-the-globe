@@ -1,5 +1,5 @@
-import { Person } from "./Person"
+import { SuperPerson } from "./SuperPerson"
 
-export interface Hero extends Person {
+export interface Hero extends SuperPerson {
     description: string
 }

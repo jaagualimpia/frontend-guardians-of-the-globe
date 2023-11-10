@@ -1,14 +1,15 @@
-import { Card, Col, Container, Row } from "react-bootstrap"
-import { Person } from "../../../models/Person"
+import { Button, Card, Col, Container, Row } from "react-bootstrap"
 import { AgeCalculationService } from "../../../services/AgeCalculationService"
+import { SuperPerson } from "../../../models/SuperPerson"
 
 interface PersonDetailedInfo {
-    person: Person
+    person: SuperPerson
     isVillain: boolean
 }
 
-export const DetailPersonComponent = ({ isVillain, person }: PersonDetailedInfo) => {
-    const [descriptionOrOrigins, textColor] = isVillain ? ["Origins", "#980000"] : ["Description", "#FFFFFF"]
+export const DetailPersonCardComponent = ({ isVillain, person }: PersonDetailedInfo) => {
+    const [descriptionOrOrigins, textColor] = isVillain ? ["Origin", "#980000"] : ["Description", "#FFFFFF"]
+    const content = String(person[descriptionOrOrigins.toLowerCase() as keyof SuperPerson])
 
     return (
         <>
@@ -29,13 +30,13 @@ export const DetailPersonComponent = ({ isVillain, person }: PersonDetailedInfo)
 
                         <Row>
                             <Col>
-                                <Card.Title className="fw-light text-start"><strong><b>Poderes:</b></strong> uno, dos, tres, cuatro</Card.Title>
+                                <Card.Title className="fw-light text-start"><strong><b>Abilities:</b></strong> {person.abilities.join(", ")}</Card.Title>
                             </Col>
                         </Row>
 
                         <Row>
                             <Col>
-                                <Card.Title className="fw-light text-start"><strong><b>Debilidades:</b></strong> uno, dos, tres, cuatro</Card.Title>
+                                <Card.Title className="fw-light text-start"><strong><b>Weaknesses:</b></strong> {person.weaknesses.join(", ")}</Card.Title>
                             </Col>
                         </Row>
 
@@ -47,6 +48,13 @@ export const DetailPersonComponent = ({ isVillain, person }: PersonDetailedInfo)
 
                         <Row>
                             <Col>
+                                <Card.Text className="fw-light text-start">{content}</Card.Text>
+                            </Col>
+                        </Row>
+                        <>
+
+                            {/* <Row>
+                            <Col>
                                 <Card.Text className="fw-light text-start">Lorem ipsum dolor sit amet consectetur adipiscing, elit enim cum
                                     ligula tempor non, curae cursus nullam egestas commodo. Pretium
                                     ultrices aliquam primis taciti rhoncus malesuada dictum tristique
@@ -55,7 +63,8 @@ export const DetailPersonComponent = ({ isVillain, person }: PersonDetailedInfo)
                                     Torquent natoque auctor fames congue ante a pharetra
                                 </Card.Text>
                             </Col>
-                        </Row>
+                        </Row> */}
+                        </>
                     </Container>
                 </Card.Body>
             </Card>

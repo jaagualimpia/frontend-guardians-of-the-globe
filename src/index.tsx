@@ -10,7 +10,6 @@ import { MatchesLayout } from './layouts/MatchesLayout';
 import { HeroesLayout } from './layouts/HeroesLayout';
 import { VillainsLayout } from './layouts/VillainsLayout';
 import { SponsorsLayout } from './layouts/SponsorsLayout';
-import { DetailPersonComponent } from './components/detailComponents/DetailPersonComponent/DetailPersonComponent';
 import { DetailPersonLayout } from './layouts/detailLayouts/DetailPersonLayout';
 
 const router = createBrowserRouter([{

@@ -1,11 +1,11 @@
-import { Col, Container, Row } from "react-bootstrap"
+import { Button, Card, Col, Container, Row } from "react-bootstrap"
 import NavBar from "../../components/navBarComponent/navBar"
-import { DetailPersonComponent } from "../../components/detailComponents/DetailPersonComponent/DetailPersonComponent"
+import { DetailPersonCardComponent } from "../../components/detailComponents/DetailPersonCardComponent/DetailPersonCardComponent"
 import { useParams } from "react-router-dom"
 import { getHeroesById } from "../../services/heroesService"
 import { useEffect, useState } from "react"
-import { Person } from "../../models/Person"
 import { getVillainsById } from "../../services/villainsService"
+import { SuperPerson } from "../../models/SuperPerson"
 
 interface Definition {
     isVillain: boolean
@@ -13,11 +13,13 @@ interface Definition {
 
 export const DetailPersonLayout = ({ isVillain }: Definition) => {
     const { id } = useParams()
-    const [person, setPerson] = useState<Person>({
+    const [person, setPerson] = useState<SuperPerson>({
         name: "",
         dateOfBirth: "",
         id: 0,
-        gender: "femenino"
+        gender: "femenino",
+        weaknesses: [""],
+        abilities: ["Fire breathing"]
     })
 
     useEffect(() => {
@@ -33,19 +35,33 @@ export const DetailPersonLayout = ({ isVillain }: Definition) => {
         fetchPerson()
     }, [])
 
+    const content = isVillain ? (
+        <></>
+    ) : (
+        <Row className="my-3">
+            <Col className="d-flex justify-content-center">
+                <a className="btn btn-success" href="/sponsors">
+                    <b className="">Know principal Sponsor</b>
+                </a>
+            </Col>
+            <Col className="d-flex justify-content-center">
+                <p className="text-white fw-bold">
+                    Most fought villain is <b>{person.name}</b>
+                </p>
+            </Col>
+        </Row>
+    );
+
     return (
         <>
             <NavBar />
             <Container className="mt-4">
                 <Row className="mx-4">
-                    <Col>
-                    </Col>
-                </Row>
-                <Row className="mx-4">
                     <Col className="d-flex justify-content-center">
-                        <DetailPersonComponent isVillain={isVillain} person={person} />
+                        <DetailPersonCardComponent isVillain={isVillain} person={person}/>
                     </Col>
                 </Row>
+                {content}
             </Container>
         </>
     )

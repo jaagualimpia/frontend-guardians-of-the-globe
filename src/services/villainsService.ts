@@ -20,17 +20,20 @@ export const getVillainsById = async (id: number): Promise<Villain> => {
         name: "",
         origin: "",
         gender: "",
-        dateOfBirth: ""
+        dateOfBirth: "",
+        weaknesses: [""],
+        abilities: ["Fire", "darkness"]
     }
 
     await axios.get(`http://localhost:5050/villain/${id}`)
         .then((response) => {
-            console.log(response.data)
             villain.id = response.data.id
             villain.name = response.data.name
             villain.gender = response.data.gender
             villain.origin = response.data.origin
             villain.dateOfBirth = response.data.dateOfBirth
+            villain.weaknesses = response.data.weaknesses
+            villain.abilities = response.data.abilities
         })
 
     return villain
