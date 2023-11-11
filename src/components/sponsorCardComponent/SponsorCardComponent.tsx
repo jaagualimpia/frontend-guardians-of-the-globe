@@ -7,9 +7,13 @@ interface SponsorCardProps {
 }
 
 export const SponsorCardComponent = ({sponsor}: SponsorCardProps) => {
+    const onCardClick = () => {
+        window.location.href = `/sponsors/${sponsor.id}`
+    }
+
 
     return (
-        <Card style={{ width: '15rem', backgroundColor: '#1A1A1C', cursor: "pointer" }}>
+        <Card style={{ width: '15rem', backgroundColor: '#1A1A1C', cursor: "pointer" }} onClick={onCardClick}>
             <Card.Body>
                 <Container fluid>
                     <Row>

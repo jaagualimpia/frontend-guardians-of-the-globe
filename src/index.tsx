@@ -11,6 +11,7 @@ import { HeroesLayout } from './layouts/HeroesLayout';
 import { VillainsLayout } from './layouts/VillainsLayout';
 import { SponsorsLayout } from './layouts/SponsorsLayout';
 import { DetailPersonLayout } from './layouts/detailLayouts/DetailPersonLayout';
+import { DetailSponsorLayout } from './layouts/detailLayouts/DetailSponsorLayout';
 
 const router = createBrowserRouter([{
     path: '/',
@@ -51,6 +52,10 @@ const router = createBrowserRouter([{
   {
     path: '/sponsors',
     element: <SponsorsLayout/>,
+  }, 
+  {
+    path: '/sponsors/:id',
+    element: <DetailSponsorLayout/>,
   }
 ])
 

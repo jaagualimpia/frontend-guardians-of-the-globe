@@ -13,7 +13,7 @@ export const getAllSponsors = async () => {
     return sponsor
 }
 
-export const getSponsorsById = async (id: number): Promise<Sponsor> => {
+export const getSponsorById = async (id: number): Promise<Sponsor> => {
     let sponsor: Sponsor = {
         id: 0,
         name: "",
