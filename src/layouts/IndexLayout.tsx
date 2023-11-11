@@ -2,6 +2,7 @@ import { Col, Container, Row } from "react-bootstrap"
 import NavBar from "../components/navBarComponent/navBar"
 
 export const IndexLayout = () => {
+
     return (
         <>
             <NavBar />

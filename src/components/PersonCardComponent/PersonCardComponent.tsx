@@ -31,7 +31,7 @@ const PersonCardComponent = ({isVillain, person }: PersonCardProps) => {
                     </Row>
                     <Row>
                         <Col>
-                            <Card.Text className='text-center text-white fw-light'>{AgeCalculationService(new Date(person.dateOfBirth))}</Card.Text>
+                            <Card.Text className='text-center text-white fw-light'>{AgeCalculationService(new Date(person.dateOfBirth))} years </Card.Text>
                         </Col>
                     </Row>
                     <Row>

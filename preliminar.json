@@ -7,7 +7,9 @@
             "gender": "Female",
             "description": "Kazan State Finance and Economics Institute ",
             "weaknesses": ["Shortness", "fire", "wind"],
-            "abilities": ["darkness", "super strength", "x-ray vision"]
+            "abilities": ["darkness", "super strength", "x-ray vision"],
+            "principalSponsor": 2,
+            "mostFoughtVillain": "un villano bien feroz"
         },
         {
             "id": 2,
@@ -16,7 +18,9 @@
             "gender": "Female",
             "description": "Meru University of Science and Technology",
             "weaknesses": ["Shortness", "fire", "wind"],
-            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"],
+            "principalSponsor": 2,
+            "mostFoughtVillain": "un villano bien feroz"
         },
         {
             "id": 3,
@@ -25,7 +29,9 @@
             "gender": "Male",
             "description": "Payame Noor University",
             "weaknesses": ["Shortness", "fire", "wind"],
-            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"],
+            "principalSponsor": 2,
+            "mostFoughtVillain": "un villano bien feroz"
         },
         {
             "id": 4,
@@ -34,7 +40,9 @@
             "gender": "Male",
             "description": "Helsinki School of Economics and Business Administration",
             "weaknesses": ["Shortness", "fire", "wind"],
-            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"],
+            "principalSponsor": 2,
+            "mostFoughtVillain": "un villano bien feroz"
         },
         {
             "id": 5,
@@ -43,7 +51,9 @@
             "gender": "Male",
             "description": "Fitchburg State College",
             "weaknesses": ["Shortness", "fire", "wind"],
-            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"],
+            "principalSponsor": 2,
+            "mostFoughtVillain": "un villano bien feroz"
         },
         {
             "id": 6,
@@ -52,7 +62,9 @@
             "gender": "Male",
             "description": "Institute of Clinical Social Work",
             "weaknesses": ["Shortness", "fire", "wind"],
-            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"],
+            "principalSponsor": 2,
+            "mostFoughtVillain": "un villano bien feroz"
         },
         {
             "id": 7,
@@ -61,7 +73,9 @@
             "gender": "Female",
             "description": "Cairo University",
             "weaknesses": ["Shortness", "fire", "wind"],
-            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"],
+            "principalSponsor": 2,
+            "mostFoughtVillain": "un villano bien feroz"
         },
         {
             "id": 8,
@@ -70,7 +84,9 @@
             "gender": "Female",
             "description": "Chung-Ang University",
             "weaknesses": ["Shortness", "fire", "wind"],
-            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"],
+            "principalSponsor": 2,
+            "mostFoughtVillain": "un villano bien feroz"
         },
         {
             "id": 9,
@@ -79,7 +95,9 @@
             "gender": "Female",
             "description": "Gwangju Catholic College",
             "weaknesses": ["Shortness", "fire", "wind"],
-            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"],
+            "principalSponsor": 2,
+            "mostFoughtVillain": "un villano bien feroz"
         },
         {
             "id": 10,
@@ -88,7 +106,9 @@
             "gender": "Male",
             "description": "San Jose Christian College",
             "weaknesses": ["Shortness", "fire", "wind"],
-            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"],
+            "principalSponsor": 2,
+            "mostFoughtVillain": "un villano bien feroz"
         },
         {
             "id": 11,
@@ -97,7 +117,9 @@
             "gender": "Female",
             "description": "Universidad Autónoma Metropolitana - Iztapalapa",
             "weaknesses": ["Shortness", "fire", "wind"],
-            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"],
+            "principalSponsor": 2,
+            "mostFoughtVillain": "un villano bien feroz"
         },
         {
             "id": 12,
@@ -106,7 +128,9 @@
             "gender": "Female",
             "description": "Pacific Graduate School of Psychology",
             "weaknesses": ["Shortness", "fire", "wind"],
-            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"],
+            "principalSponsor": 2,
+            "mostFoughtVillain": "un villano bien feroz"
         },
         {
             "id": 13,
@@ -115,7 +139,9 @@
             "gender": "Male",
             "description": "Universidad Miguel Hernández de Elche",
             "weaknesses": ["Shortness", "fire", "wind"],
-            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"],
+            "principalSponsor": 2,
+            "mostFoughtVillain": "un villano bien feroz"
         },
         {
             "id": 14,
@@ -124,7 +150,9 @@
             "gender": "Male",
             "description": "Royal lnstitute of Technology",
             "weaknesses": ["Shortness", "fire", "wind"],
-            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"],
+            "principalSponsor": 2,
+            "mostFoughtVillain": "un villano bien feroz"
         },
         {
             "id": 15,
@@ -133,7 +161,9 @@
             "gender": "Female",
             "description": "Elmira College",
             "weaknesses": ["Shortness", "fire", "wind"],
-            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"],
+            "principalSponsor": 2,
+            "mostFoughtVillain": "un villano bien feroz"
         }
     ],
     "villain": [
@@ -180,7 +210,8 @@
             "gender": "Male",
             "origin": "Fitchburg State College",
             "weaknesses": ["Shortness", "fire", "wind"],
-            "abilities": ["Fire breathing", "super strength", "x-ray vision"]
+            "abilities": ["Fire breathing", "super strength", "x-ray vision"],
+            "principalSponsor": 2
         },
         {
             "id": 6,
@@ -300,6 +331,38 @@
             "netWorth": 22000000,
             "fortuneOrigin":"Minery",
             "sponsoredHeroes": ["Magdalen, Fanchette", "Rebeka", "karey", "Dido"]
+        }
+    ],
+    "matches": [
+        {
+            "heroName": "Magdalen",
+            "villainName": "Rebeka",
+            "date": "5/22/1965",
+            "isWinned": true
+        },
+        {
+            "heroName": "Alden",
+            "villainName": "Valle",
+            "date": "10/4/2022",
+            "isWinned": false
+        },
+        {
+            "heroName": "Dido",
+            "villainName": "Alessandra",
+            "date": "11/7/2023",
+            "isWinned": true
+        },
+        {
+            "heroName": "Leese",
+            "villainName": "Sheridan",
+            "date": "12/16/2022",
+            "isWinned": false
+        },
+        {
+            "heroName": "Fanchette",
+            "villainName": "Valle",
+            "date": "12/15/2022",
+            "isWinned": true
         }
     ]
 }

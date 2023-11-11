@@ -13,6 +13,8 @@ export const HeroesLayout = () => {
     const [searchCriteria, setSearchCriteria] = useState<string>("name")
     const [ageLimit, setAgeLimit] = useState<number>(-1)
 
+
+    
     useEffect(() => {
         const fetchAll = async () => setHeroes(await getAllHeroes())
 
@@ -30,7 +32,7 @@ export const HeroesLayout = () => {
                     <Col className="col-4 align-self-center">
                         <FormCheck>
                             <FormCheck.Input type="checkbox" onChange={() => ageLimit === -1 ? setAgeLimit(18) : setAgeLimit(-1)} />
-                            <FormCheck.Label className="text-white">Show just non adults</FormCheck.Label>
+                            <FormCheck.Label className="text-white">Show just youngers</FormCheck.Label>
                         </FormCheck>
                     </Col>
                 </Row>

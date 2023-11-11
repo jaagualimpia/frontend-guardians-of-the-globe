@@ -40,13 +40,13 @@ export const DetailPersonLayout = ({ isVillain }: Definition) => {
     ) : (
         <Row className="my-3">
             <Col className="d-flex justify-content-center">
-                <a className="btn btn-success" href="/sponsors">
+                <a className="btn btn-success" href={`http://localhost:3000/sponsors/${String(person["principalSponsor" as keyof SuperPerson])}`}>
                     <b className="">Know principal Sponsor</b>
                 </a>
             </Col>
             <Col className="d-flex justify-content-center">
                 <p className="text-white fw-bold">
-                    Most fought villain is <b>{person.name}</b>
+                    Most fought villain is <b>{String(person["mostFoughtVillain" as keyof SuperPerson])}</b>
                 </p>
             </Col>
         </Row>

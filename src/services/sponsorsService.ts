@@ -24,7 +24,7 @@ export const getSponsorById = async (id: number): Promise<Sponsor> => {
         sponsoredHeroes: []
     }
 
-    await axios.get(`http://localhost:5050/sponsor/${id}`)
+    await axios.get(`${process.env.REACT_APP_API_URL_TESTS}/sponsor/${id}`)
         .then((response) => {
             sponsor.id = response.data.id
             sponsor.name = response.data.name

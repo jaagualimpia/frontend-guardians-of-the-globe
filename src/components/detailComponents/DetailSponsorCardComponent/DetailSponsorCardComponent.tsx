@@ -28,7 +28,7 @@ export const DetailSponsorCardComponent = ({ sponsor }: SponsorCardProps) => {
 
                         <Row>
                             <Col>
-                                <Card.Title className="fw-light text-start"><strong style={{ color: "green" }}><b>Net Worth: </b></strong> {sponsor.netWorth}</Card.Title>
+                                <Card.Title className="fw-light text-start"><strong style={{ color: "green" }}><b>Net Worth: </b></strong> {sponsor.netWorth} USD</Card.Title>
                             </Col>
                         </Row>
 

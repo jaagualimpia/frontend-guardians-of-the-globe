@@ -4,7 +4,7 @@ import { Villain } from "../models/Villain"
 export const getAllVillains = async () => {
     let villain: Villain[] = []
 
-    await axios.get("http://localhost:5050/villain").then((response) => {
+    await axios.get(`${process.env.REACT_APP_API_URL_TESTS}/villain`).then((response) => {
         response.data.forEach((element: Villain) => {
             villain.push(element)
         })
@@ -25,7 +25,7 @@ export const getVillainsById = async (id: number): Promise<Villain> => {
         abilities: ["Fire", "darkness"]
     }
 
-    await axios.get(`http://localhost:5050/villain/${id}`)
+    await axios.get(`${process.env.REACT_APP_API_URL_TESTS}/villain/${id}`)
         .then((response) => {
             villain.id = response.data.id
             villain.name = response.data.name
