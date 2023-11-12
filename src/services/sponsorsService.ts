@@ -4,7 +4,7 @@ import { Sponsor } from "../models/Sponsor"
 export const getAllSponsors = async () => {
     let sponsor: Sponsor[] = []
 
-    await axios.get("http://localhost:5050/sponsor").then((response) => {
+    await axios.get(`${process.env.REACT_APP_API_URL_TESTS}/sponsors`).then((response) => {
         response.data.forEach((element: Sponsor) => {
             sponsor.push(element)
         })
@@ -24,7 +24,7 @@ export const getSponsorById = async (id: number): Promise<Sponsor> => {
         sponsoredHeroes: []
     }
 
-    await axios.get(`${process.env.REACT_APP_API_URL_TESTS}/sponsor/${id}`)
+    await axios.get(`${process.env.REACT_APP_API_URL_TESTS}/sponsors/${id}`)
         .then((response) => {
             sponsor.id = response.data.id
             sponsor.name = response.data.name

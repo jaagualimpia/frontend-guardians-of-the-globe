@@ -13,7 +13,7 @@ export const SponsorCardComponent = ({sponsor}: SponsorCardProps) => {
 
 
     return (
-        <Card style={{ width: '15rem', backgroundColor: '#1A1A1C', cursor: "pointer" }} onClick={onCardClick}>
+        <Card style={{ backgroundColor: '#1A1A1C', cursor: "pointer" }} onClick={onCardClick}>
             <Card.Body>
                 <Container fluid>
                     <Row>

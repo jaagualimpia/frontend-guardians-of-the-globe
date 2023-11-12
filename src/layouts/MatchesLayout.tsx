@@ -12,7 +12,7 @@ export const MatchesLayout = () => {
         const fetchAll = async () => setMatches(await getAllMatches())
 
         fetchAll()
-    })
+    }, [])
 
     return (
         <>

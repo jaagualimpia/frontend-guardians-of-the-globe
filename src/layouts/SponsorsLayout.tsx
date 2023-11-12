@@ -19,10 +19,10 @@ export const SponsorsLayout = () => {
         <>
             <NavBar />
             <Container className="mt-4">
-                <Row className="mx-4">
+                <Row className="mx-4 gy-4">
                     {
                         sponsor.map((sponsor) => (
-                            <Col>
+                            <Col className="col-4">
                                 <SponsorCardComponent sponsor={sponsor} />
                             </Col>
                         ))

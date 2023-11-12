@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "Magdalen",
-            "dateOfBirth": "12/6/2002",
+            "dateOfBirth": "12/06/2002",
             "gender": "Female",
             "description": "Kazan State Finance and Economics Institute ",
             "weaknesses": ["Shortness", "fire", "wind"],
@@ -14,7 +14,7 @@
         {
             "id": 2,
             "name": "Rebeka",
-            "dateOfBirth": "5/23/2015",
+            "dateOfBirth": "05/23/2015",
             "gender": "Female",
             "description": "Meru University of Science and Technology",
             "weaknesses": ["Shortness", "fire", "wind"],
@@ -47,7 +47,7 @@
         {
             "id": 5,
             "name": "Willdon",
-            "dateOfBirth": "9/25/2002",
+            "dateOfBirth": "09/25/2002",
             "gender": "Male",
             "description": "Fitchburg State College",
             "weaknesses": ["Shortness", "fire", "wind"],
