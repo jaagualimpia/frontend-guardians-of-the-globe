@@ -1,5 +1,5 @@
 {
-    "heroe": [
+    "heroes": [
         {
             "id": 1,
             "name": "Magdalen",
@@ -166,7 +166,7 @@
             "mostFoughtVillain": "un villano bien feroz"
         }
     ],
-    "villain": [
+    "villains": [
         {
             "id": 1,
             "name": "Magdalen",
@@ -304,7 +304,7 @@
             "abilities": ["Fire breathing", "super strength", "x-ray vision"]
         }
     ],
-    "sponsor": [
+    "sponsors": [
         {
             "id": 1,
             "name": "Jorge",

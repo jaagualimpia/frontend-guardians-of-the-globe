@@ -4,7 +4,7 @@ import { Match } from "../models/Match";
 export const getAllMatches = async (): Promise<Match[]> => {
     let data: Match[] = []
 
-    await axios.get(`${process.env.REACT_APP_API_URL_TESTS}/matches`).then((response) => {
+    await axios.get(`${process.env.REACT_APP_API_URL}/matches`).then((response) => {
         response.data.forEach((match: Match) => data.push(match))
     })
 
@@ -19,7 +19,7 @@ export const getMatchById = async (id: number): Promise<Match> => {
         date: ''
     }
 
-    await axios.get(`${process.env.REACT_APP_API_URL_TESTS}/matches/${id}`).then((response) => {
+    await axios.get(`${process.env.REACT_APP_API_URL}/matches/${id}`).then((response) => {
         data.heroName = response.data.heroName
         data.villainName = response.data.villainName
         data.isWinned = response.data.isWinned

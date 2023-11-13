@@ -4,7 +4,7 @@ import { Hero } from "../models/Hero"
 export const getAllHeroes = async (): Promise<Hero[]> => {
     let heroes: Hero[] = []
 
-    await axios.get(`${process.env.REACT_APP_API_URL_TESTS}/heroes`).then((response) => {
+    await axios.get(`${process.env.REACT_APP_API_URL}/heroes`).then((response) => {
         response.data.forEach((element: Hero) => {
             heroes.push(element)
         })
@@ -26,7 +26,7 @@ export const getHeroesById = async (id: number): Promise<Hero> => {
         mostFoughtVillain: ""
     }
 
-    await axios.get(`${process.env.REACT_APP_API_URL_TESTS}/heroes/${id}`).then((response) => {
+    await axios.get(`${process.env.REACT_APP_API_URL}/heroes/${id}`).then((response) => {
         hero.id = response.data.id
         hero.name = response.data.name
         hero.description = response.data.description
