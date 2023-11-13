@@ -1,46 +1,22 @@
-# Getting Started with Create React App
+# Contexto
+En este apartado se especifican las acciones necesarias a llevar a cabo para ejecutar de manera satisfactoria el proyecto de frontend guardians of the globe. La ejecución de este proyecto esta directamente ligada con el proyecto  [backend guardians of the globe](https://github.com/jaagualimpia/backend-guardians-of-the-globe.git). Es necesario antes de lanzar el proyecto del front que el backend anteriormente especificado ya se encuentre corriendo en la maquina.  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Prerequisitos
+- La maquina en la cual se quiera ejecutar el proyecto necesita de los siguientes elementos. 
+1. git 
+2. NodeJS
+3. npm 
 
-## Available Scripts
 
-In the project directory, you can run:
+# Paso a paso
+ 1. Primero se debe instalar el proyecto en la maquina haciendo uso de `git clone` y adicionalmente ejecutando el comando `cd guardians_of_the_globe` para entrar al proyecto
+ 2. Ya habiendo entrado a la carpeta donde se almacena el proyecto se deberá de ejecutar el comando `npm install` para instalar los paquetes y dependencias necesarias para el correcto funcionamiento de todo el proyecto 
+ 3. Habiendo realizado esto se debe de crear un archivo .env cuya estructura debe de cumplir con el siguiente formato
+	
+		En caso de que se haya asignado el puerto propuesto en el instructivo para el backend:
+		REACT_APP_API_URL=http://localhost:5050/api/v1
+		
+		En caso de que se haya escogido un puerto personalizado al lanzar el backend: 
+		REACT_APP_API_URL=http://localhost:<puerto_personalizado>/api/v1
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Finalmente se debe de ejecutar el comando `npm start`  para poder iniciar el proyecto. 
