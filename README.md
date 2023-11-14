@@ -1,3 +1,5 @@
+# El siguiente trabajo es realizado por el estudiante Jorge Agualimpia como parte de la asignatura de Electiva de Ingenieria de Software con el acompañamiento de la empresa Sophos Solutions
+
 # Contexto
 En este apartado se especifican las acciones necesarias a llevar a cabo para ejecutar de manera satisfactoria el proyecto de frontend guardians of the globe. La ejecución de este proyecto esta directamente ligada con el proyecto  [backend guardians of the globe](https://github.com/jaagualimpia/backend-guardians-of-the-globe.git). Es necesario antes de lanzar el proyecto del front que el backend anteriormente especificado ya se encuentre corriendo en la maquina.  
 
